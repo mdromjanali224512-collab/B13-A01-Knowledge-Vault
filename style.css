@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 /* shere tag */
 .nav-button{
     color: #FFFFFF;
@@ -15,13 +19,16 @@ border-radius: 5px;
 .nav-button:hover{
     background: #d65454;
 }
-
+.margin{
+    margin: 15px;
+}
 
 /* navBar section */
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px 0;
 }
 nav ul{
     display: flex;
@@ -41,3 +48,47 @@ nav ul li a:hover{
     border-bottom: 2px solid green;
 }
 /* baner section */
+.baner{
+    background-image: url('./assets/hero-bg.png');
+    padding: 115px 120px 179px;
+    text-align: center;
+}
+.baner h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+}
+.baner h2{
+    font-size: 72px;
+    color: #30B868;
+    line-height: 84px;
+    font-weight: bold;
+
+}
+.baner .button1{
+    font-size: 16px;
+    color: #469165;
+    border-radius: 50px;
+    padding: 13px;
+    border: none;
+    background: #FFFFFF;
+}
+.baner p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 35px;
+}
+.button2{
+    font-size: 16px;
+    border: 2px solid #FFFFFF;
+    padding: 13px;
+    background:none ;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.button2:hover{
+    background: rgb(233, 103, 103);
+}
+

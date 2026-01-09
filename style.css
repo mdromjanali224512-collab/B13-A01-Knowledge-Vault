@@ -6,6 +6,10 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+body a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 body{
     max-width: 1550px;
     margin: auto;
@@ -21,11 +25,14 @@ border-radius: 5px;
 cursor: pointer;
 
 }
+.butt{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
 .nav-button:hover{
     background: #d65454;
-}
-.margin{
-    margin: 15px;
 }
 
 /* navBar section */
@@ -58,6 +65,11 @@ nav ul li a:hover{
     padding: 115px 120px 179px;
     text-align: center;
 }
+.icon{
+   color: #FFFFFF;
+   font-size: 20px;
+   margin-right: 16px;
+}
 .baner h1{
     color: #FFFFFF;
     font-size: 72px;
@@ -79,6 +91,11 @@ nav ul li a:hover{
     border: none;
     background: #FFFFFF;
 }
+.button1:hover{
+    background: rgb(236, 80, 80);
+    color: #FFFFFF;
+    cursor: pointer;
+}
 .baner p{
     color: #FFFFFF;
     font-size: 18px;
@@ -96,6 +113,9 @@ nav ul li a:hover{
 }
 .button2:hover{
     background: rgb(233, 103, 103);
+}
+.mt{
+    margin-top: 32px;
 }
 /* notes section */
 .cards{
@@ -216,11 +236,7 @@ footer{
     line-height: 28px;
     margin-bottom: 16px;
 }
-.icon{
-   color: #FFFFFF;
-   font-size: 20px;
-   margin-right: 16px;
-}
+
 hr{
    height: .5px;
    border: none;

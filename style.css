@@ -6,6 +6,10 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+body{
+    max-width: 1550px;
+    margin: auto;
+}
 /* shere tag */
 .nav-button{
     color: #FFFFFF;
@@ -91,4 +95,83 @@ nav ul li a:hover{
 .button2:hover{
     background: rgb(233, 103, 103);
 }
-
+/* notes section */
+.cards{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 44px 120px;
+}
+.notes-section{
+    text-align: center;
+}
+.notes-section h1{
+color: #001931;
+font-size: 48px;
+font-weight: bold;
+margin-top: 70px;
+}
+.notes-section .head p{
+    color: #627382;
+    font-size: 16px;
+    margin: 16px 0 44px;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgb(221, 221, 221);
+    padding: 69px 24px;
+    width: 250px;
+}
+.card img{
+    background: #F95555;
+    border-radius: 50%;
+    padding: 16px;
+}
+.card h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600px;
+    margin: 16px 0;
+}
+.card p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* solution */
+.SOLUTION{
+    display: flex;
+    margin: 120px;
+    gap: 60px;
+   align-items: center;
+}
+.SOLUTION h4{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+}
+.SOLUTION h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+.SOLUTION .p{
+color: #627382;
+font-size: 16px;
+line-height: 20px;
+margin-bottom:40px ;
+}
+.list p{
+    color: #001931;
+    font-size: 16px;
+}
+.list img{
+    width: 20px;
+    height: 20px;
+}
+.list li{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}

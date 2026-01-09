@@ -18,6 +18,7 @@ body{
     padding: 14px;
     border: none;
 border-radius: 5px;
+cursor: pointer;
 
 }
 .nav-button:hover{
@@ -91,6 +92,7 @@ nav ul li a:hover{
     color: #FFFFFF;
     border-radius: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }
 .button2:hover{
     background: rgb(233, 103, 103);
@@ -121,6 +123,9 @@ margin-top: 70px;
     box-shadow: 2px 2px 20px rgb(221, 221, 221);
     padding: 69px 24px;
     width: 250px;
+}
+.card:hover{
+    background: rgb(240, 195, 195);
 }
 .card img{
     background: #F95555;
@@ -174,4 +179,22 @@ margin-bottom:40px ;
     display: flex;
     gap: 6px;
     margin-bottom: 16px;
+}
+/* chelange section */
+.chelenge{
+    background: #F7F6F2;
+    text-align: center;
+    margin: 0 120px 120px;
+    padding: 80px;
+}
+.chelenge h1{
+color: #001931;
+font-size: 40px;
+font-weight: bold;
+}
+.chelenge p{
+    font-size: 16px;
+    color: #627382;
+    margin: 16px 0;
+
 }

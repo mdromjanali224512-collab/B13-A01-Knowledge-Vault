@@ -66,9 +66,8 @@ nav ul li a:hover{
     text-align: center;
 }
 .icon{
-   color: #FFFFFF;
-   font-size: 20px;
-   margin-right: 16px;
+ display: flex;
+ gap: 16px;
 }
 .baner h1{
     color: #FFFFFF;
